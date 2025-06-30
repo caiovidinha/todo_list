@@ -10,4 +10,5 @@ nav:
       - Criar Usuário: api/create-user.md
       - Criar Tarefa: api/create-task.md
       - Buscar Tarefa: api/get-task.md
+      - Atualizar Tarefa: api/update-task.md
       - Deletar Tarefa: api/delete-task.md
