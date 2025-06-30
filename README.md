@@ -37,7 +37,7 @@ docker compose up --build -d
 ### 4. Execute as migrações
 
 ```bash
-docker compose exec todo_app alembic upgrade head
+docker exec todo_app alembic upgrade head
 ```
 
 ### 5. Acompanhar os logs
