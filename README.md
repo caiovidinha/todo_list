@@ -98,9 +98,9 @@ Authorization: Bearer seu_token_aqui
 
 Disponível em:
 
-📍 http://localhost:8000/docs  (Swagger)
-📍 http://localhost:8000/redoc (ReDoc)
-📍 http://localhost:8001/ (Documentação manual de integração usando mkdocs)
+- http://localhost:8000/docs  (Swagger)
+- http://localhost:8000/redoc (ReDoc)
+- http://localhost:8001/ (Documentação manual de integração usando mkdocs)
 
 ---
 
