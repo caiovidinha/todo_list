@@ -31,7 +31,7 @@ cp .env.example .env
 ### 3. Suba os containers
 
 ```bash
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 ### 4. Execute as migrações
