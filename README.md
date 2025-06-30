@@ -1,10 +1,10 @@
-# 📝 To-Do List API
+# To-Do List API
 
 API RESTful construída com **FastAPI**, **PostgreSQL** e **SQLAlchemy assíncrono**, com autenticação via **Bearer Token**.
 
 ---
 
-## 🚀 Stack e escolhas técnicas
+## Stack e escolhas técnicas
 
 - **FastAPI**
 - **PostgreSQL**
@@ -15,7 +15,7 @@ API RESTful construída com **FastAPI**, **PostgreSQL** e **SQLAlchemy assíncro
 
 ---
 
-## ⚙️ Como rodar o projeto com Docker
+## Como rodar o projeto com Docker
 
 ### 1. Clone o repositório
 
@@ -42,7 +42,7 @@ docker compose exec todo_app alembic upgrade head
 
 ---
 
-## 🧪 Como usar a API
+## Como usar a API
 
 ### 1. Criar um usuário
 
@@ -64,7 +64,7 @@ Authorization: Bearer seu_token_aqui
 
 ---
 
-## ✅ Endpoints principais
+## Endpoints principais
 
 - `POST /tasks` – Criar tarefa
 - `GET /tasks` – Listar todas as tarefas
@@ -74,7 +74,7 @@ Authorization: Bearer seu_token_aqui
 
 ---
 
-## 🧠 Exemplo de criação de tarefa
+## Exemplo de criação de tarefa
 
 ```http
 POST /tasks
@@ -88,7 +88,7 @@ Authorization: Bearer seu_token_aqui
 
 ---
 
-## 📄 Documentação
+## Documentação
 
 Disponível em:
 
@@ -96,6 +96,8 @@ Disponível em:
 📍 http://localhost:8000/redoc (ReDoc)
 📍 http://localhost:8001/ (Documentação manual de integração usando mkdocs)
 
-## 📄 Testar com Frontend
+---
+
+## Testar com Frontend
 
 Desenvolvi um Frontend simples para consumir a API localmente: [Repositório](https://github.com/caiovidinha/todo-front)
