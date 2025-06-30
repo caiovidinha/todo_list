@@ -40,6 +40,12 @@ docker-compose up --build -d
 docker compose exec todo_app alembic upgrade head
 ```
 
+### 4. Acompanhar os logs
+
+```bash
+docker logs -f todo_app
+```
+
 ---
 
 ## Como usar a API
