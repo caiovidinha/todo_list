@@ -23,4 +23,4 @@ docker exec todo_app alembic upgrade head
 
 ## Realizar chamadas
 
-Usar o endereço `http://localhost:8000/`, se tiver a porta ocupada, pode alterar manualmente no .env do projeto
+Usar o endereço `http://localhost:8000/`. Se tiver a porta ocupada, ela será realocada manualmente pelo uvicorn, mas caso prefira, pode alterar manualmente no docker-compose e Dockerfile do projeto.
