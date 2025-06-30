@@ -1,0 +1,13 @@
+site_name: ToDo API Docs
+theme:
+  name: material
+
+nav:
+  - Introdução: index.md
+  - Guia de Integração:
+      - Configuração: setup.md
+  - Referência de API:
+      - Criar Usuário: api/create-user.md
+      - Criar Tarefa: api/create-task.md
+      - Buscar Tarefa: api/get-task.md
+      - Deletar Tarefa: api/delete-task.md

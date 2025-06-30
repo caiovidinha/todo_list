@@ -40,9 +40,6 @@ docker-compose up --build -d
 docker compose exec api alembic upgrade head
 ```
 
-Acesse a documentação interativa em:  
-📍 http://localhost:8000/docs
-
 ---
 
 ## 🧪 Como usar a API
@@ -95,5 +92,6 @@ Authorization: Bearer seu_token_aqui
 
 Disponível em:
 
-📍 http://localhost:8000/docs  
-📍 http://localhost:8000/redoc
+📍 http://localhost:8000/docs  (Swagger)
+📍 http://localhost:8000/redoc (ReDoc)
+📍 http://localhost:8001/ (Documentação manual de integração usando mkdocs)

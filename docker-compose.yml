@@ -25,6 +25,18 @@ services:
       - db
     env_file:
       - .env
+    
+  docs:
+    image: squidfunk/mkdocs-material
+    container_name: todo_docs
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./docs:/docs
+      - ./mkdocs.yml:/mkdocs.yml
+    working_dir: /
+    command: serve --dev-addr=0.0.0.0:8000
+
 
 volumes:
   pgdata:

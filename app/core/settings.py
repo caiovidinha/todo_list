@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     postgres_user: str
     postgres_password: str
     postgres_db: str
-    bearer_token: str
+    cors_origin: str = "*"
     project_name: str = "ToDo API"
 
     @property

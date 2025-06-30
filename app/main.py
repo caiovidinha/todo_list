@@ -3,8 +3,20 @@ from fastapi.responses import JSONResponse
 from fastapi.openapi.utils import get_openapi
 from app.api.v1 import router as api_router
 from app.common.exceptions import TaskNotFoundException
+from fastapi.middleware.cors import CORSMiddleware
+from app.core.settings import get_settings
+
+settings = get_settings()
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[settings.cors_origin],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 app.include_router(api_router, prefix="/api/v1")
 
 @app.exception_handler(TaskNotFoundException)
